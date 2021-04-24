@@ -16,22 +16,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quantidade de Senhas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rtj-Kk-MGd">
-                                <rect key="frame" x="24" y="140" width="239" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantidade de Senhas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rtj-Kk-MGd">
+                                <rect key="frame" x="24" y="140" width="175" height="20.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.59607843137254901" green="0.14117647058823529" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GRz-w7-40j">
-                                <rect key="frame" x="271" y="136" width="80" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GRz-w7-40j">
+                                <rect key="frame" x="262" y="133.33333333333334" width="89" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total de Caracteres" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Za2-mw-4rr">
+                                <rect key="frame" x="24" y="176.33333333333334" width="175" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <color key="textColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bxT-7O-7uv">
+                                <rect key="frame" x="262" y="169.66666666666666" width="89" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usar Letras minusculas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZK-rD-K8O">
+                                <rect key="frame" x="24" y="212.66666666666666" width="175" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <color key="textColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ez3-nk-Mpy">
+                                <rect key="frame" x="262" y="206.33333333333334" width="89" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ez3-nk-Mpy" firstAttribute="centerY" secondItem="PZK-rD-K8O" secondAttribute="centerY" id="4PX-q8-mHd"/>
+                            <constraint firstItem="ez3-nk-Mpy" firstAttribute="leading" secondItem="PZK-rD-K8O" secondAttribute="trailing" constant="63" id="6oy-Fu-EMt"/>
+                            <constraint firstItem="GRz-w7-40j" firstAttribute="leading" secondItem="Rtj-Kk-MGd" secondAttribute="trailing" constant="63" id="8qU-sd-WUn"/>
+                            <constraint firstItem="Rtj-Kk-MGd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="E0W-FJ-s6f"/>
+                            <constraint firstItem="bxT-7O-7uv" firstAttribute="trailing" secondItem="ez3-nk-Mpy" secondAttribute="trailing" id="JLR-6F-YfT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GRz-w7-40j" secondAttribute="trailing" constant="63" id="KEu-Oq-li9"/>
+                            <constraint firstItem="bxT-7O-7uv" firstAttribute="centerY" secondItem="Za2-mw-4rr" secondAttribute="centerY" id="Lyz-cV-2Z8"/>
+                            <constraint firstItem="PZK-rD-K8O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="Phg-lh-GoZ"/>
+                            <constraint firstItem="bxT-7O-7uv" firstAttribute="leading" secondItem="Za2-mw-4rr" secondAttribute="trailing" constant="63" id="PyF-f5-q1n"/>
+                            <constraint firstItem="ez3-nk-Mpy" firstAttribute="trailing" secondItem="GRz-w7-40j" secondAttribute="trailing" id="Y9A-75-nwb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bxT-7O-7uv" secondAttribute="trailing" constant="63" id="ZVZ-az-VCy"/>
+                            <constraint firstItem="GRz-w7-40j" firstAttribute="centerY" secondItem="Rtj-Kk-MGd" secondAttribute="centerY" id="bn5-61-wIc"/>
+                            <constraint firstItem="Rtj-Kk-MGd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="eHY-Nm-3A6"/>
+                            <constraint firstItem="ez3-nk-Mpy" firstAttribute="leading" secondItem="GRz-w7-40j" secondAttribute="leading" id="ewR-tO-4yP"/>
+                            <constraint firstItem="Za2-mw-4rr" firstAttribute="top" secondItem="Rtj-Kk-MGd" secondAttribute="bottom" constant="16" id="fg9-0m-J7W"/>
+                            <constraint firstItem="PZK-rD-K8O" firstAttribute="top" secondItem="Za2-mw-4rr" secondAttribute="bottom" constant="16" id="fvu-Jd-wsi"/>
+                            <constraint firstItem="Za2-mw-4rr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="lWU-pw-heA"/>
+                            <constraint firstItem="bxT-7O-7uv" firstAttribute="leading" secondItem="ez3-nk-Mpy" secondAttribute="leading" id="ulm-sC-TtY"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Gerador de Senhas" id="Dj9-vf-Sr8">
                         <barButtonItem key="backBarButtonItem" title="Gerador de Senhas" id="yju-vt-ghW"/>
