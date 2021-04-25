@@ -81,6 +81,9 @@
                                 <state key="normal" title="Gerar Senha">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="nDz-1F-Zcy" kind="show" id="pgs-Nn-Lxh"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock" translatesAutoresizingMaskIntoConstraints="NO" id="uN8-si-P2Q">
                                 <rect key="frame" x="120.66666666666667" y="490" width="172.66666666666663" height="210"/>
@@ -154,6 +157,7 @@
                         <viewLayoutGuide key="safeArea" id="LtW-b6-YJR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="rjC-1H-LvZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AkZ-me-NhM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
