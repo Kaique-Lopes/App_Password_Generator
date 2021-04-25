@@ -161,12 +161,22 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhc-pu-RQk">
+                                <rect key="frame" x="24" y="592" width="366" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Nova Senha">
+                                    <color key="titleColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LtW-b6-YJR"/>
                         <color key="backgroundColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="LtW-b6-YJR" firstAttribute="bottom" secondItem="C0m-i6-dax" secondAttribute="bottom" constant="24" id="f37-51-fSc"/>
                             <constraint firstItem="LtW-b6-YJR" firstAttribute="trailing" secondItem="C0m-i6-dax" secondAttribute="trailing" constant="24" id="fAx-0h-EUr"/>
+                            <constraint firstItem="C0m-i6-dax" firstAttribute="top" secondItem="Hhc-pu-RQk" secondAttribute="bottom" constant="60" id="mvm-HK-CnE"/>
+                            <constraint firstItem="LtW-b6-YJR" firstAttribute="trailing" secondItem="Hhc-pu-RQk" secondAttribute="trailing" constant="24" id="oQ9-6t-JWg"/>
+                            <constraint firstItem="Hhc-pu-RQk" firstAttribute="leading" secondItem="LtW-b6-YJR" secondAttribute="leading" constant="24" id="yd8-hI-guh"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Lista de Senhas" id="sz7-Ea-zJb"/>
