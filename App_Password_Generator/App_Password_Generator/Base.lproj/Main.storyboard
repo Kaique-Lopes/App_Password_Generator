@@ -160,6 +160,9 @@
                                 <state key="normal" title="Dicas de Segurança">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="htd-8O-Lna" kind="presentation" id="JnL-wg-uRX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhc-pu-RQk">
                                 <rect key="frame" x="24" y="592" width="366" height="30"/>
@@ -168,9 +171,8 @@
                                     <color key="titleColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Gere uma Senha" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="v4B-lW-VVW">
-                                <rect key="frame" x="20" y="123" width="370" height="420"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Gere uma Senha" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="v4B-lW-VVW">
+                                <rect key="frame" x="16" y="124" width="382" height="419"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -180,6 +182,10 @@
                         <viewLayoutGuide key="safeArea" id="LtW-b6-YJR"/>
                         <color key="backgroundColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="v4B-lW-VVW" firstAttribute="leading" secondItem="LtW-b6-YJR" secondAttribute="leading" constant="16" id="3Zm-ql-OUY"/>
+                            <constraint firstItem="v4B-lW-VVW" firstAttribute="top" secondItem="LtW-b6-YJR" secondAttribute="top" constant="28" id="Gvi-Nz-YMb"/>
+                            <constraint firstItem="LtW-b6-YJR" firstAttribute="trailing" secondItem="v4B-lW-VVW" secondAttribute="trailing" constant="16" id="YAW-9L-lc0"/>
+                            <constraint firstItem="Hhc-pu-RQk" firstAttribute="top" secondItem="v4B-lW-VVW" secondAttribute="bottom" constant="49" id="boy-0D-SVj"/>
                             <constraint firstItem="LtW-b6-YJR" firstAttribute="bottom" secondItem="C0m-i6-dax" secondAttribute="bottom" constant="24" id="f37-51-fSc"/>
                             <constraint firstItem="LtW-b6-YJR" firstAttribute="trailing" secondItem="C0m-i6-dax" secondAttribute="trailing" constant="24" id="fAx-0h-EUr"/>
                             <constraint firstItem="C0m-i6-dax" firstAttribute="top" secondItem="Hhc-pu-RQk" secondAttribute="bottom" constant="60" id="mvm-HK-CnE"/>
@@ -192,6 +198,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AkZ-me-NhM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1744.9275362318842" y="114.94565217391305"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="T2A-iU-J0a">
+            <objects>
+                <viewController id="htd-8O-Lna" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Pa-Bb-ygS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="UgR-3d-nLb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="T8Q-fB-Mh8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lrH-W5-c9H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2571" y="115"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KJ5-kc-NpD">
