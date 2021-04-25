@@ -206,14 +206,44 @@
                     <view key="view" contentMode="scaleToFill" id="4Pa-Bb-ygS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dicas para uma senha Segura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mIl-bb-UCV">
+                                <rect key="frame" x="93.666666666666686" y="12" width="227" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Fj-QY-UoK">
+                                <rect key="frame" x="343" y="662" width="47" height="30"/>
+                                <state key="normal" title="Fechar"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Cm7-92-2NA">
+                                <rect key="frame" x="24" y="57" width="366" height="490"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="UgR-3d-nLb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Cm7-92-2NA" firstAttribute="leading" secondItem="UgR-3d-nLb" secondAttribute="leading" constant="24" id="0HP-KX-e25"/>
+                            <constraint firstItem="UgR-3d-nLb" firstAttribute="bottom" secondItem="1Fj-QY-UoK" secondAttribute="bottom" constant="24" id="0I9-zW-fLj"/>
+                            <constraint firstItem="mIl-bb-UCV" firstAttribute="centerX" secondItem="4Pa-Bb-ygS" secondAttribute="centerX" id="J6P-xp-wRa"/>
+                            <constraint firstItem="1Fj-QY-UoK" firstAttribute="top" secondItem="Cm7-92-2NA" secondAttribute="bottom" constant="115" id="SHu-17-HjK"/>
+                            <constraint firstItem="UgR-3d-nLb" firstAttribute="trailing" secondItem="Cm7-92-2NA" secondAttribute="trailing" constant="24" id="UNM-ih-UIn"/>
+                            <constraint firstItem="mIl-bb-UCV" firstAttribute="top" secondItem="UgR-3d-nLb" secondAttribute="top" constant="12" id="XrO-eY-TmM"/>
+                            <constraint firstItem="UgR-3d-nLb" firstAttribute="trailing" secondItem="1Fj-QY-UoK" secondAttribute="trailing" constant="24" id="qbX-kd-1B4"/>
+                            <constraint firstItem="Cm7-92-2NA" firstAttribute="top" secondItem="mIl-bb-UCV" secondAttribute="bottom" constant="24" id="zZv-kX-P9n"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="T8Q-fB-Mh8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrH-W5-c9H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2571" y="115"/>
+            <point key="canvasLocation" x="2569.5652173913045" y="114.94565217391305"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KJ5-kc-NpD">
@@ -236,6 +266,9 @@
     </scenes>
     <resources>
         <image name="lock" width="172.66667175292969" height="210"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
