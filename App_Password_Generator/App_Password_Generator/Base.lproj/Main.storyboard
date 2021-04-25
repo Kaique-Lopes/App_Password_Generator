@@ -147,7 +147,7 @@
             </objects>
             <point key="canvasLocation" x="940.57971014492762" y="114.94565217391305"/>
         </scene>
-        <!--View Controller-->
+        <!--Lista de Senhas-->
         <scene sceneID="fEF-Qx-Okp">
             <objects>
                 <viewController id="nDz-1F-Zcy" sceneMemberID="viewController">
@@ -157,7 +157,7 @@
                         <viewLayoutGuide key="safeArea" id="LtW-b6-YJR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="rjC-1H-LvZ"/>
+                    <navigationItem key="navigationItem" title="Lista de Senhas" id="sz7-Ea-zJb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AkZ-me-NhM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
