@@ -16,6 +16,8 @@ class PasswordGenerator {
     
     var passwords: [String] = []
     
-    let
+    private let letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    private let numbers = "0123456789"
+    private let specialCharacters = "!@#.,;/?-~´{}|\<>:>^[]*-/+$%&()"
     
 }
