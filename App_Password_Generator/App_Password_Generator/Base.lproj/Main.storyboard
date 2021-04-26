@@ -143,6 +143,10 @@
                         <barButtonItem key="backBarButtonItem" title="Gerador de Senhas" id="yju-vt-ghW"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="swCapitalLetters" destination="LCj-wG-VfD" id="nDf-43-Z5i"/>
+                        <outlet property="swLetters" destination="25a-bF-lcQ" id="s62-y8-HFE"/>
+                        <outlet property="swNumbers" destination="Uee-UV-3Ok" id="y9j-Yt-J22"/>
+                        <outlet property="swSpecialCharacters" destination="5Hl-k2-f6c" id="eJ0-uL-2Ut"/>
                         <outlet property="tfTotalCharacters" destination="bxT-7O-7uv" id="vlA-Ya-yXa"/>
                         <outlet property="tfTotalPasswords" destination="GRz-w7-40j" id="gxa-KS-Pqh"/>
                     </connections>
