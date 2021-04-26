@@ -16,6 +16,7 @@
 		1EEA5A3C26324E5000341AE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEA5A3A26324E5000341AE0 /* LaunchScreen.storyboard */; };
 		1EEF20732636421B00104865 /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF20722636421B00104865 /* PasswordsViewController.swift */; };
 		1EEF20762636434600104865 /* SecurityTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF20752636434600104865 /* SecurityTipsViewController.swift */; };
+		1EEF20792636442300104865 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF20782636442300104865 /* PasswordGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1EEA5A3D26324E5000341AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EEF20722636421B00104865 /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
 		1EEF20752636434600104865 /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
+		1EEF20782636442300104865 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				1EEA5A2E26324E4F00341AE0 /* SceneDelegate.swift */,
 				1EEA5A3026324E4F00341AE0 /* ViewController.swift */,
 				1EEA5A3226324E4F00341AE0 /* Main.storyboard */,
+				1EEF20782636442300104865 /* PasswordGenerator.swift */,
 				1EEF20722636421B00104865 /* PasswordsViewController.swift */,
 				1EEF20752636434600104865 /* SecurityTipsViewController.swift */,
 				1EEA5A3826324E5000341AE0 /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 				1EEA5A3126324E4F00341AE0 /* ViewController.swift in Sources */,
 				1EEA5A2D26324E4F00341AE0 /* AppDelegate.swift in Sources */,
 				1EEA5A2F26324E4F00341AE0 /* SceneDelegate.swift in Sources */,
+				1EEF20792636442300104865 /* PasswordGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
