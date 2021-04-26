@@ -30,5 +30,9 @@ class PasswordGenerator {
         self.numberOfCharacters = numchars
         self.useSpecialCharacters = useSpecialCharacters
     }
-    
+    func generate(total: Int) -> [String] {
+        passwords.removeAll()
+        var universe: String = ""
+        return passwords
+    }
 }
