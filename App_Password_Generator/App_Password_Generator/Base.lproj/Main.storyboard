@@ -213,10 +213,10 @@
             </objects>
             <point key="canvasLocation" x="1744.9275362318842" y="114.94565217391305"/>
         </scene>
-        <!--View Controller-->
+        <!--Security Tips View Controller-->
         <scene sceneID="T2A-iU-J0a">
             <objects>
-                <viewController id="htd-8O-Lna" sceneMemberID="viewController">
+                <viewController id="htd-8O-Lna" customClass="SecurityTipsViewController" customModule="App_Password_Generator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Pa-Bb-ygS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -230,6 +230,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Fj-QY-UoK">
                                 <rect key="frame" x="343" y="662" width="47" height="30"/>
                                 <state key="normal" title="Fechar"/>
+                                <connections>
+                                    <action selector="close:" destination="htd-8O-Lna" eventType="touchUpInside" id="6pJ-CN-GBE"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Cm7-92-2NA">
                                 <rect key="frame" x="24" y="57" width="366" height="490"/>
