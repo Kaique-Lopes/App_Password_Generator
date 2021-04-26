@@ -142,6 +142,10 @@
                     <navigationItem key="navigationItem" title="Gerador de Senhas" id="Dj9-vf-Sr8">
                         <barButtonItem key="backBarButtonItem" title="Gerador de Senhas" id="yju-vt-ghW"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tfTotalCharacters" destination="bxT-7O-7uv" id="vlA-Ya-yXa"/>
+                        <outlet property="tfTotalPasswords" destination="GRz-w7-40j" id="gxa-KS-Pqh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
