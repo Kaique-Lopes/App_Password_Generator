@@ -178,6 +178,9 @@
                                 <state key="normal" title="Nova Senha">
                                     <color key="titleColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="generate:" destination="nDz-1F-Zcy" eventType="touchUpInside" id="qmy-cD-Bh5"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Gere uma Senha" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="v4B-lW-VVW">
                                 <rect key="frame" x="16" y="124" width="382" height="419"/>
