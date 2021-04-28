@@ -50,6 +50,8 @@ class PasswordGenerator {
             universe += letters.uppercased()
         }
         
+        let universeArray = Array(universe)
+        
         return passwords
     }
 }
