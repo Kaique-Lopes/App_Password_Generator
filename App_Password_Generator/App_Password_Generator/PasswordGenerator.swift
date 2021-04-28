@@ -42,6 +42,10 @@ class PasswordGenerator {
             universe += numbers
         }
         
+        if useSpecialCharacters {
+            universe += specialCharacters
+        }
+        
         return passwords
     }
 }
