@@ -38,6 +38,10 @@ class PasswordGenerator {
             universe += letters
         }
         
+        if useNumbers {
+            universe += numbers
+        }
+        
         return passwords
     }
 }
