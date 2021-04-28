@@ -46,6 +46,10 @@ class PasswordGenerator {
             universe += specialCharacters
         }
         
+        if useCapitalLetters {
+            universe += letters.uppercased()
+        }
+        
         return passwords
     }
 }
