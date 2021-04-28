@@ -33,6 +33,11 @@ class PasswordGenerator {
     func generate(total: Int) -> [String] {
         passwords.removeAll()
         var universe: String = ""
+        
+        if useLetters {
+            universe += letters
+        }
+        
         return passwords
     }
 }
