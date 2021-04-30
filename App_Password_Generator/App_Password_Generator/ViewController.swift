@@ -24,6 +24,10 @@ class ViewController: UIViewController {
         if let numberOfPasswords = Int(tfTotalPasswords.text!) {
             passwordsViewController.numberOfPasswords = numberOfPasswords
         }
+        if let numberOfCharacters = Int(tfTotalPasswords.text!) {
+            passwordsViewController.numberOfCharacters = numberOfCharacters
+        }
+        
     }
 
 }
