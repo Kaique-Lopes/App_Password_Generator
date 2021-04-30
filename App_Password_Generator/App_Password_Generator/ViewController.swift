@@ -20,7 +20,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let passwordsViewController = segue.destination
+        let passwordsViewController = segue.destination as! PasswordsViewController
+        if let numberOfPasswords = Int(tfTotalPasswords.text!) {
+            passwordsViewController.numberOfPasswords = numberOfPasswords
+        }
     }
 
 }
