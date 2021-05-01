@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         passwordsViewController.useNumbers = swNumbers.isOn
         passwordsViewController.useCapitalLetters = swCapitalLetters.isOn
         passwordsViewController.useSpecialCharacters = swSpecialCharacters.isOn
+        view.endEditing(true)
     }
 
 }
