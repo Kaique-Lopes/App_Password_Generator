@@ -21,6 +21,7 @@ class PasswordsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Total de Senhas: \(numberOfPasswords)"
         
     }
     @IBAction func generate(_ sender: Any) {
