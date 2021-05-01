@@ -29,7 +29,8 @@ class ViewController: UIViewController {
         }
         passwordsViewController.useLetters = swLetters.isOn
         passwordsViewController.useNumbers = swNumbers.isOn
-
+        passwordsViewController.useCapitalLetters = swCapitalLetters.isOn
+        passwordsViewController.useSpecialCharacters = swSpecialCharacters.isOn
     }
 
 }
