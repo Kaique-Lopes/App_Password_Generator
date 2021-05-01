@@ -28,6 +28,8 @@ class ViewController: UIViewController {
             passwordsViewController.numberOfCharacters = numberOfCharacters
         }
         passwordsViewController.useLetters = swLetters.isOn
+        passwordsViewController.useNumbers = swNumbers.isOn
+
     }
 
 }
