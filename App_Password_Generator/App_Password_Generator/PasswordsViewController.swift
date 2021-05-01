@@ -16,6 +16,8 @@ class PasswordsViewController: UIViewController {
     var useNumbers: Bool!
     var useCapitalLetters: Bool!
     var useSpecialCharacters: Bool!
+    var passwordGenerator: PasswordGenerator!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
