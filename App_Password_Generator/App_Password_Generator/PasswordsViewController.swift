@@ -25,6 +25,10 @@ class PasswordsViewController: UIViewController {
         passwordGenerator = PasswordGenerator(numberOfCharacters: numberOfCharacters, useLetters: useLetters, useNumbers: useNumbers, useCapitalLetters: useCapitalLetters, useSpecialCharacters: useSpecialCharacters)
         
         let passwords = passwordGenerator.generate(total: numberOfPasswords)
+        
+        for password in passwords {
+            tvPasswords.text.append(password + "\n\n")
+        }
     }
     @IBAction func generate(_ sender: Any) {
         
