@@ -23,6 +23,8 @@ class PasswordsViewController: UIViewController {
         super.viewDidLoad()
         title = "Total de Senhas: \(numberOfPasswords)"
         passwordGenerator = PasswordGenerator(numberOfCharacters: numberOfCharacters, useLetters: useLetters, useNumbers: useNumbers, useCapitalLetters: useCapitalLetters, useSpecialCharacters: useSpecialCharacters)
+        
+        let passwords = passwordGenerator.generate(total: numberOfPasswords)
     }
     @IBAction func generate(_ sender: Any) {
         
